@@ -17,11 +17,19 @@ This library creates a list view component that supports several options
 
 ## Example:
 
+Requires d3. Add the following to the html header
+```
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="js/d2rl.js"></script>
+<link rel="stylesheet" href="css/d2rl.css" type="text/css" media="all">
+```
 Add a tag for the list container
 ```
 <div id="selection" class="list"></div>
 ```
-Add the following javascript code
+Add the following javascript code providing some data. 
 ```
-createList([{}]);
+<script type="text/javascript">
+  createList([{}]);
+</script>
 ```
