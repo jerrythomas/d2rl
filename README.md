@@ -8,10 +8,20 @@ This library creates a list view component that supports several options
 * collapsible: Enables expanding and collapsing levels
 * toolbar: adds a toolbar with predefined icons (delete, add, search). 
 
-## Usage:
+## Usage Options:
 * Accordion
 * Editable List
 * Collapsible
 * Drag & Drop interactions
 * Themes
 
+## Example:
+
+Add a tag for the list container
+```
+<div id="selection" class="list"></div>
+```
+Add the following javascript code
+```
+createList([{}]);
+```
